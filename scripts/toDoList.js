@@ -1,11 +1,6 @@
 let output = document.querySelector('.output')
 
-let toDoArray = [
-    {
-        item: 'Gå tur med hund',
-        note: 'kl. 9 og kl. 12'
-    },
-]
+let toDoArray = []
 
 
 /* === delete item === */
@@ -28,7 +23,8 @@ deleteItem()
 const renderList = () => {
     output.innerHTML = ""
     toDoArray.forEach(object => {
-        output.innerHTML += `
+        output.innerHTML += 
+        `
             <div class="listContainer">
                 <input type="checkbox" class="checkbox">
                 <p class="listItem">${object.item}<p/>
@@ -43,17 +39,27 @@ const renderList = () => {
 renderList()
 
 
-
-
 /* === tjek af på listen === */
 let checkedItem = () => {
+    let checkboxes = document.querySelectorAll('.checkbox')
     let listItem = document.querySelectorAll('.listItem')
+    let listNote = document.querySelectorAll('.listNote')
 
-    listItem.forEach(item => {
-            item.addEventListener('click', (e) => {
-                e.target.classList.toggle('done')
-            })
+    checkboxes.forEach((check, index) => {
+        check.addEventListener('click', () => {
+            listItem[index].classList.toggle('done')
+            listNote[index].classList.toggle('done')
         })
+    })
+    
+
+    //tjekker et enkelt element af på listen:
+
+    /* listNote.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.target.classList.toggle('done')
+        })
+    }) */
 }
 checkedItem()
 
@@ -80,5 +86,7 @@ buttonAddItem.addEventListener('click', () => {
     let toDoObject = {item: listInput.value, note: noteInput.value}
     toDoArray.push(toDoObject)
     renderList()
+    listInput.value = ''
+    noteInput.value = ''
     checkedItem()
 })
