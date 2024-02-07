@@ -25,7 +25,7 @@ let menuItem = (menu) => `
 
 async function fetchData() {
     try {
-        const response = await fetch('../data/index.json');
+        const response = await fetch('..data/index.json');
         const data = await response.json();
         return data;
     } catch (error) {
