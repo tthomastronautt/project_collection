@@ -2,11 +2,10 @@ let output = document.querySelector('.output')
 
 let toDoArray = []
 
-
 /* === delete item === */
 const deleteItem = () => {
     const deleteBtn = document.querySelectorAll('.delete')
-
+    
     deleteBtn.forEach((btn, index) => {
         btn.addEventListener('click', (e) => {
             toDoArray.splice(index, 1)
@@ -15,7 +14,6 @@ const deleteItem = () => {
         })
     })
 }
-
 deleteItem()
 
 
@@ -28,14 +26,13 @@ const renderList = () => {
             <div class="listContainer">
                 <input type="checkbox" class="checkbox">
                 <p class="listItem">${object.item}<p/>
-                <p class="listNote">${object.note}</p>
+                <p class="listNote hidden">${object.note}</p>
                 <button class="delete">> Delete</button>
             </div><br>
         `
         deleteItem()
     })
 }
-
 renderList()
 
 
@@ -54,7 +51,6 @@ let checkedItem = () => {
     
 
     //tjekker et enkelt element af på listen:
-
     /* listNote.forEach(item => {
         item.addEventListener('click', (e) => {
             e.target.classList.toggle('done')
@@ -83,10 +79,16 @@ let noteInput = document.querySelector('.noteInput')
 let buttonAddItem = document.querySelector('.buttonAddItem')
 
 buttonAddItem.addEventListener('click', () => {
-    let toDoObject = {item: listInput.value, note: noteInput.value}
-    toDoArray.push(toDoObject)
-    renderList()
-    listInput.value = ''
-    noteInput.value = ''
-    checkedItem()
+    if (listInput.value.trim() !== '' && noteInput.value.trim() !== '') {
+        let toDoObject = {item: listInput.value, note: noteInput.value}
+        toDoArray.push(toDoObject)//tilføjer object til array
+        renderList()
+        listInput.value = ''//nulstiller input felterne når punket er tilføjet til listen
+        noteInput.value = ''
+        checkedItem()
+    } else {
+        return
+    }
 })
+
+/* åbn/luk accordian */

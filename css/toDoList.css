@@ -92,6 +92,9 @@ body{
 .done{
     color: springgreen;
 }
+.hidden{
+    display: none;
+}
 /* === list end === */
 
 @media screen and (max-width: 1366px) {
