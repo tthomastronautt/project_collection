@@ -1,3 +1,26 @@
 [
-    
+    {
+        "name": "Cait",
+        "role": "Cage fighter",
+        "location": "Combat Zone",
+        "weapon": "Double-barreled shotgun",
+        "bio": "Cait is a cage fighter trapped in the Combat Zone in Fallout 4, fighting for the amusement of the raiders that have occupied the arena. Should the Sole Survivor clear out the arena, her employer will transfer her contract to them, making her available as a companion.<br><br>She is approximately around the age of 26, as it is mentioned she spent 18 years with her parents, 5 with the slavers, and 3 at the Combat Zone.",
+        "link": "https://fallout.fandom.com/wiki/Cait"
+    },
+    {
+        "name": "Codsworth",
+        "role": "Robotic butler",
+        "location": "Sanctuary Hills",
+        "weapon": "Flamethrower",
+        "bio": "Codsworth is a domestic-model Mister Handy purchased by the Sole Survivor, in service to them and their family before the Great War in Sanctuary Hills, as a butler from 2077 to 2287. He can be recruited as a companion upon reaching a trigger point in Concord during the quest Out of Time and returning to him.",
+        "link": "https://fallout.fandom.com/wiki/Codsworth"
+    },
+    {
+        "name": "",
+        "role": "",
+        "location": "",
+        "weapon": "",
+        "bio": "",
+        "link": ""
+    }
 ]
