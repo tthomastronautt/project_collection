@@ -16,11 +16,115 @@
         "link": "https://fallout.fandom.com/wiki/Codsworth"
     },
     {
-        "name": "",
-        "role": "",
-        "location": "",
-        "weapon": "",
-        "bio": "",
-        "link": ""
+        "name": "Curie",
+        "role": "Scientist",
+        "location": "Vault 81",
+        "weapon": "Laser",
+        "bio": "Contagions Vulnerability Robotic Infirmary Engineer (CVRIE), or Curie, is a heavily-modified Miss Nanny designed by Vault 81's covert research team in the aftermath of the Great War. Should the Sole Survivor investigate the Vault's hidden sector and relieve her of duty, she will offer her services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/Curie"
+    },
+    {
+        "name": "Paladin Danse",
+        "role": "BOS paladin",
+        "location": "Cambridge police station",
+        "weapon": "Laser rifle",
+        "bio": "Paladin Danse (unit designation M7-97, registration DN-407P) is the commanding officer of Recon Squad Gladius, a Brotherhood of Steel unit deployed to the Commonwealth in 2287. Should the Sole Survivor join the Brotherhood and advance to the rank of knight, he will offer his services as a companion. He is a major character in the Brotherhood of Steel storyline in Fallout 4.",
+        "link": "https://fallout.fandom.com/wiki/Danse"
+    },
+    {
+        "name": "Deacon",
+        "role": "Railroad spy",
+        "location": "Railroad HQ",
+        "weapon": "Hunting rifle",
+        "bio": "Deacon (real name unknown) is an enigmatic agent of the Railroad in 2287. After the Sole Survivor begins traveling the Commonwealth, he scouts them as a potential recruit, speaking in favor of their admittance after they locate the organization. Should they agree to join, he will offer them his services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/Deacon"
+    },
+    {
+        "name": "Dogmeat",
+        "role": "Dog",
+        "location": "Red Rocket gas station",
+        "weapon": "N/A",
+        "bio": "Dogmeat is a dog living in the Commonwealth in 2287 and a possible companion to the Sole Survivor. He will be named Dog until the Sole Survivor speaks to Mama Murphy about his true name during the quest When Freedom Calls, or until Nick Valentine reveals his name during Getting a Clue, when Dogmeat has to sniff out Kellogg.",
+        "link": "https://fallout.fandom.com/wiki/Dogmeat_(Fallout_4)"
+    },
+    {
+        "name": "John Hancock",
+        "role": "Mayor of Goodneighbor",
+        "location": "Goodneighbor",
+        "weapon": "Double-barreled shotgun",
+        "bio": "John Hancock (born John McDonough) is a ghoul living in Goodneighbor in 2287, serving as the settlement's mayor in Fallout 4. Should the Sole Survivor aid Bobbi No-Nose in a plot to rob him, he will be impressed and humbled by their actions, taking a leave of absence from his duties to offer his services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/John_Hancock"
+    },
+    {
+        "name": "Robert MacCready",
+        "role": "Mercenary",
+        "location": "Goodneighbor",
+        "weapon": "Hunting rifle",
+        "bio": "Robert Joseph MacCready is a mercenary and possible companion in Fallout 4. He previously appeared as the mayor of Little Lamplight in 2277 in Fallout 3. In his adulthood, he became a gun-for-hire, and by 2287, he operates out of Goodneighbor in the Commonwealth. Out of work due to the Gunners scaring off clients, he offers the Sole Survivor his services as a companion for a price.",
+        "link": "https://fallout.fandom.com/wiki/Robert_MacCready"
+    },
+    {
+        "name": "Nick Valentine",
+        "role": "Detective",
+        "location": "Diamond City",
+        "weapon": "Pipe revolver",
+        "bio": "Nick Valentine is a synthetic private detective living in Diamond City in 2287. Following their awakening, the Sole Survivor hires him to help locate their missing son, after which he offers them his services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/Nick_Valentine"
+    },
+    {
+        "name": "Piper Wright",
+        "role": "News reporter",
+        "location": "Diamond City",
+        "weapon": "10mm pistol",
+        "bio": "Piper Wright is a reporter living in Diamond City in 2287, running the local newspaper Publick Occurrences with her younger sister, Nat. She will eventually offer her services as a companion to the Sole Survivor, either after they agree to an interview or after finishing Reunions.",
+        "link": "https://fallout.fandom.com/wiki/Piper_Wright"
+    },
+    {
+        "name": "Preston Garvey",
+        "role": "Minuteman",
+        "location": "Museum of freedom",
+        "weapon": "Laser musket",
+        "bio": "Preston Garvey is one of the last surviving members of the Commonwealth Minutemen, a volunteer defense militia operating in the Commonwealth in 2287. Should the Sole Survivor rescue him from the Museum of Freedom and assume leadership of the Minutemen, he will offer his services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/Preston_Garvey"
+    },
+    {
+        "name": "Strong",
+        "role": "Super mutant",
+        "location": "Trinity tower",
+        "weapon": "Sledgehammer",
+        "bio": "Strong is a super mutant imprisoned at Trinity Tower in 2287. Originally a member of Fist's warband, he betrayed his brethren due to the influence of the thespian Rex Goodman, who tried to teach him Shakespeare. Should the Sole Survivor rescue him and Rex, he will offer them his services as a companion.",
+        "link": "https://fallout.fandom.com/wiki/Strong"
+    },
+    {
+        "name": "X6-88",
+        "role": "Courser",
+        "location": "The Institute",
+        "weapon": "Institute laser",
+        "bio": "X6-88 is a courser-class synth serving the Institute in 2287, performing various missions on their behalf in the Commonwealth. Should the Sole Survivor cooperate with the Institute after reaching it, he will be assigned to them as a potential companion.",
+        "link": "https://fallout.fandom.com/wiki/X6-88"
+    },
+    {
+        "name": "Ada",
+        "role": "Caravaneer",
+        "location": "Wattz Consumer Electronics",
+        "weapon": "Laser",
+        "bio": "Ada is a modified Assaultron living in the Commonwealth in 2287 and a possible companion of the Sole Survivor.",
+        "link": "https://fallout.fandom.com/wiki/Ada"
+    },
+    {
+        "name": "Old Longfellow",
+        "role": "Hunter",
+        "location": "Far Harbor",
+        "weapon": "Lever-action rifle",
+        "bio": "Old Longfellow is a hunter and guide living out of a cabin near Far Harbor in 2287. He is a possible companion to the Sole Survivor.",
+        "link": "https://fallout.fandom.com/wiki/Old_Longfellow"
+    },
+    {
+        "name": "Porter Gage",
+        "role": "Raider",
+        "location": "Nuka-World",
+        "weapon": "Handmade rifle",
+        "bio": "Porter Gage is a raider and possible companion of the Sole Survivor in 2287.",
+        "link": "https://fallout.fandom.com/wiki/Porter_Gage"
     }
 ]
