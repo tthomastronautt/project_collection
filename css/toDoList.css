@@ -69,7 +69,8 @@ body{
     cursor: pointer;
 }
 .checkbox:checked{
-    background-color: green;
+    background-color: springgreen;
+    border: springgreen;
 }
 /* === checkbox end === */
 
@@ -77,6 +78,11 @@ body{
 /* === list start === */
 .listItem{
     font-weight: bold;
+}
+.listItem:hover{
+    cursor: pointer;
+    background-color: green;
+    color: black;
 }
 .delete{
     width: 100%;

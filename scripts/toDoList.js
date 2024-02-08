@@ -30,6 +30,7 @@ const renderList = () => {
                 <button class="delete">> Delete</button>
             </div><br>
         `
+        showNote()
         deleteItem()
     })
 }
@@ -91,4 +92,16 @@ buttonAddItem.addEventListener('click', () => {
     }
 })
 
-/* åbn/luk accordian */
+/* === åbn/luk accordian === */
+let showNote = () => {
+    let listItem = document.querySelectorAll('.listItem')
+    let listNote = document.querySelectorAll('.listNote')
+
+    listItem.forEach((element, index) => {
+        element.addEventListener('click', () => {
+            listNote[index]. classList.toggle('hidden');
+        });
+    });
+};
+
+showNote();
