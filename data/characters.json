@@ -1,6 +1,7 @@
 [
     {
         "name": "Cait",
+        "img": "./img/characters/Cait.jpg",
         "role": "Cage fighter",
         "location": "Combat Zone",
         "weapon": "Double-barreled shotgun",
@@ -9,6 +10,7 @@
     },
     {
         "name": "Codsworth",
+        "img": "./img/characters/Codsworth.jpg",
         "role": "Robotic butler",
         "location": "Sanctuary Hills",
         "weapon": "Flamethrower",
@@ -17,6 +19,7 @@
     },
     {
         "name": "Curie",
+        "img": "./img/characters/Curie.jpg",
         "role": "Scientist",
         "location": "Vault 81",
         "weapon": "Laser",
@@ -25,6 +28,7 @@
     },
     {
         "name": "Paladin Danse",
+        "img": "./img/characters/Paladin_Danse.jpg",
         "role": "BOS paladin",
         "location": "Cambridge police station",
         "weapon": "Laser rifle",
@@ -33,6 +37,7 @@
     },
     {
         "name": "Deacon",
+        "img": "./img/characters/Deacon.jpg",
         "role": "Railroad spy",
         "location": "Railroad HQ",
         "weapon": "Hunting rifle",
@@ -41,6 +46,7 @@
     },
     {
         "name": "Dogmeat",
+        "img": "./img/characters/Dogmeat.jpg",
         "role": "Dog",
         "location": "Red Rocket gas station",
         "weapon": "N/A",
@@ -49,6 +55,7 @@
     },
     {
         "name": "John Hancock",
+        "img": "./img/characters/John_Hancock.jpg",
         "role": "Mayor of Goodneighbor",
         "location": "Goodneighbor",
         "weapon": "Double-barreled shotgun",
@@ -57,6 +64,7 @@
     },
     {
         "name": "Robert MacCready",
+        "img": "./img/characters/MacCready.jpg",
         "role": "Mercenary",
         "location": "Goodneighbor",
         "weapon": "Hunting rifle",
@@ -65,6 +73,7 @@
     },
     {
         "name": "Nick Valentine",
+        "img": "./img/characters/Nick_Valentine.jpg",
         "role": "Detective",
         "location": "Diamond City",
         "weapon": "Pipe revolver",
@@ -73,6 +82,7 @@
     },
     {
         "name": "Piper Wright",
+        "img": "./img/characters/Piper_Wright.jpg",
         "role": "News reporter",
         "location": "Diamond City",
         "weapon": "10mm pistol",
@@ -81,6 +91,7 @@
     },
     {
         "name": "Preston Garvey",
+        "img": "./img/characters/Preston_Garvey.jpg",
         "role": "Minuteman",
         "location": "Museum of freedom",
         "weapon": "Laser musket",
@@ -89,6 +100,7 @@
     },
     {
         "name": "Strong",
+        "img": "./img/characters/Strong.jpg",
         "role": "Super mutant",
         "location": "Trinity tower",
         "weapon": "Sledgehammer",
@@ -97,6 +109,7 @@
     },
     {
         "name": "X6-88",
+        "img": "./img/characters/X6-88.jpg",
         "role": "Courser",
         "location": "The Institute",
         "weapon": "Institute laser",
@@ -105,6 +118,7 @@
     },
     {
         "name": "Ada",
+        "img": "./img/characters/Ada.jpg",
         "role": "Caravaneer",
         "location": "Wattz Consumer Electronics",
         "weapon": "Laser",
@@ -113,6 +127,7 @@
     },
     {
         "name": "Old Longfellow",
+        "img": "./img/characters/Old_Longfellow.jpg",
         "role": "Hunter",
         "location": "Far Harbor",
         "weapon": "Lever-action rifle",
@@ -121,6 +136,7 @@
     },
     {
         "name": "Porter Gage",
+        "img": "./img/characters/Porter_Gage.jpg",
         "role": "Raider",
         "location": "Nuka-World",
         "weapon": "Handmade rifle",
