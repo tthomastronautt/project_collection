@@ -1,5 +1,4 @@
 const grid = document.querySelector('.grid');
-const modal = document.querySelector('.modal');
 const list = document.querySelector('.list');
 
 
@@ -8,19 +7,17 @@ let gridItem = (key) => `
         <p class="cardTitle">> ${key.name}</p>
         <img src="${key.img}" alt="${key.name}" class="cardImg">
     </div>
-`;
-
-
-let modalItem = (key) => `
-    <div class="modalContainer hidden">
-        <img src="${key.img}" alt="${key.name}" class="modalImg">
-        <div class="modalInfoContainer">
-            <p>Name: ${key.name}</p><br>
-            <p>Role: ${key.role}</p><br>
-            <p>Location: ${key.location}</p><br>
-            <p>Weapon: ${key.weapon}</p><br>
-            <p>Bio: ${key.bio}</p><br>
-            <p>> <a href="${key.link}">Read more</a></p>
+    <div class="modal hidden">
+        <div class="modalContainer">
+            <img src="${key.img}" alt="${key.name}" class="modalImg">
+            <div class="modalInfoContainer">
+                <p>Name: ${key.name}</p><br>
+                <p>Role: ${key.role}</p><br>
+                <p>Location: ${key.location}</p><br>
+                <p>Weapon: ${key.weapon}</p><br>
+                <p>Bio: ${key.bio}</p><br>
+                <p>> <a href="${key.link}" target="blank" class="readMore">Read more</a></p>
+            </div>
         </div>
     </div>
 `
@@ -42,7 +39,6 @@ const renderData = async () => {
 
     data.forEach((key) => {
         grid.insertAdjacentHTML('beforeend', gridItem(key))
-        modal.insertAdjacentHTML('beforeend', modalItem(key))
     });
 
     openModal();
@@ -50,21 +46,24 @@ const renderData = async () => {
 renderData();
 
 
-/* åbner modal */
+/* åbner/lukker modal */
 let openModal = () => {
 
     const card = document.querySelectorAll('.card');
-    const modalContainer = document.querySelectorAll('.modalContainer');
+    const modal = document.querySelectorAll('.modal');
+    const readMore = document.querySelectorAll('.readMore')
 
+    //åbn
     card.forEach((element, index) => {
         element.addEventListener('click', () => {
-            modal.classList.toggle('hidden');
-            modalContainer[index].classList.toggle('hidden');
+            modal[index].classList.toggle('hidden');
         });
     });
 
-    modal.addEventListener('click', () => {
-        modal.classList.add('hidden');
-        modalContainer.forEach(container => container.classList.add('hidden'));
+    //luk
+    modal.forEach((element, index) => {
+        element.addEventListener('click', () => {
+            modal[index].classList.toggle('hidden');
+        });
     });
 };
