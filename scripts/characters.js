@@ -1,8 +1,8 @@
-const grid = document.querySelector('.grid');
-const list = document.querySelector('.list');
+const grid = document.querySelector('.grid')
+const list = document.querySelector('.list')
 
 
-let gridItem = (key) => `
+let gridTemplate = (key) => `
     <div class="card">
         <p class="cardTitle">> ${key.name}</p>
         <img src="${key.img}" alt="${key.name}" class="cardImg">
@@ -15,9 +15,27 @@ let gridItem = (key) => `
                 <p>Role: ${key.role}</p><br>
                 <p>Location: ${key.location}</p><br>
                 <p>Weapon: ${key.weapon}</p><br>
-                <p>Bio: ${key.bio}</p><br>
+                <p>Bio:<br> ${key.bio}</p><br>
                 <p>> <a href="${key.link}" target="blank" class="readMore">Read more</a></p>
             </div>
+        </div>
+    </div>
+`
+
+
+let listTemplate = (key) => `
+    <p class="accordion">> ${key.name}</p>
+    <div class="listContainer hidden">
+        <img src="${key.img}" alt="${key.name}" class="listImg">
+        <div class="listInfoContainer">
+            <p>Name: ${key.name}</p><br>
+            <p>Role: ${key.role}</p><br>
+            <p>Location: ${key.location}</p><br>
+            <p>Weapon: ${key.weapon}</p>
+        </div>
+        <div class="listInfoContainer">
+            <p>Bio:<br> ${key.bio}</p><br>
+            <p>> <a href="${key.link}" target="blank" class="readMore">Read more</a></p>
         </div>
     </div>
 `
@@ -38,32 +56,62 @@ const renderData = async () => {
     const data = await fetchData ();
 
     data.forEach((key) => {
-        grid.insertAdjacentHTML('beforeend', gridItem(key))
+        grid.insertAdjacentHTML('beforeend', gridTemplate(key));
+        list.insertAdjacentHTML('beforeend', listTemplate(key));
     });
 
-    openModal();
+    toggleView();
+    modal();
+    accordion();
 };
 renderData();
 
 
-/* åbner/lukker modal */
-let openModal = () => {
+/* funktion der skifter mellem grid/list visning */
+let toggleView = () => {
 
-    const card = document.querySelectorAll('.card');
+    const toggleButton = document.querySelector('.toggleButton');
+
+    // grid/list
+    toggleButton.addEventListener('click', () => {
+        grid.classList.toggle('hidden');
+        list.classList.toggle('hidden');
+    });
+};
+
+
+/* funtion der åbner/lukker modal */
+let modal = () => {
+
+    const cardImg = document.querySelectorAll('.cardImg');
     const modal = document.querySelectorAll('.modal');
-    const readMore = document.querySelectorAll('.readMore')
-
-    //åbn
-    card.forEach((element, index) => {
+    
+    // åbn
+    cardImg.forEach((element, index) => {
         element.addEventListener('click', () => {
             modal[index].classList.toggle('hidden');
         });
     });
 
-    //luk
+    // luk
     modal.forEach((element, index) => {
         element.addEventListener('click', () => {
             modal[index].classList.toggle('hidden');
+        });
+    });
+};
+
+
+/* funktion der åbner/lukker accordion */
+let accordion = () => {
+
+    const accordion = document.querySelectorAll('.accordion');
+    const listContainer = document.querySelectorAll('.listContainer');
+    
+    // åbn/luk
+    accordion.forEach((element, index) => {
+        element.addEventListener('click', () => {
+            listContainer[index].classList.toggle('hidden');
         });
     });
 };

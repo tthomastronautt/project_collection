@@ -27,6 +27,7 @@ body{
 .indexLink{
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 .indexLink:hover{
     background-color: green;
@@ -43,7 +44,6 @@ body{
 }
 .card{
     margin-bottom: 20px;
-    cursor: pointer;
 }
 .cardImg{
     opacity: 75%;
@@ -84,6 +84,28 @@ body{
 }
 /* === modal section end === */
 
+
+/* === list section start === */
+.accordion:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+.listContainer{
+    display: flex;
+    flex-flow: row wrap;
+}
+.listImg, .listInfoContainer{
+    width: 25%;
+}
+.listImg{
+    margin-right: 10px;
+}
+.listInfoContainer{
+    margin-inline: 10px;
+}
+/* === list section end === */
+
 @media screen and (max-width: 1366px) {
     body{
         width: 375px;
@@ -112,6 +134,14 @@ body{
         display: none;
     }
     /* === MOBILE modal section end === */
+
+
+    /* === MOBILE list section start === */
+    .listInfoContainer, .listImg{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    /* === MOBILE list section end === */
 }
 
 .hidden{
