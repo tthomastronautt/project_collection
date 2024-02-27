@@ -99,7 +99,7 @@ let showNote = () => {
 
     listItem.forEach((element, index) => {
         element.addEventListener('click', () => {
-            listNote[index]. classList.toggle('hidden');
+            listNote[index].classList.toggle('hidden');
         });
     });
 };

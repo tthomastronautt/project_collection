@@ -44,6 +44,28 @@ body{
 /* === menu section end === */
 
 
+/* === login section start === */
+.loginSection{
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    border: none;
+    outline: none;
+    border-bottom: 1px dashed;
+}
+.loginButton, .guestLoginButton{
+    border: none;
+    text-align: start;
+    font-weight: bold;
+}
+.loginButton:hover, .guestLoginButton:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+/* === login section end === */
+
 @media screen and (max-width: 1366px) {
     body{
         width: 375px;
@@ -54,4 +76,8 @@ body{
     .listItem{
         width: 100%;
     }
+}
+
+.hidden{
+    display: none;
 }

@@ -1,10 +1,14 @@
 [
     {
         "url": "./toDoList.html",
-        "title": "To do list" 
+        "title": "To do list"
     },
     {
         "url": "./characters.html",
         "title": "Character logs" 
+    },
+    {
+        "url": "./special.html",
+        "title": "S.P.E.C.I.A.L."
     }
 ]

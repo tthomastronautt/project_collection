@@ -41,3 +41,30 @@ const renderData = async () => {
     });
 }
 renderData()
+
+
+/* === login screen === */
+const indexTitle = document.querySelector('.indexTitle')
+const loginSection = document.querySelector('.loginSection')
+const password = document.querySelector('.password')
+const loginButton = document.querySelector('.loginButton')
+const guestLoginButton = document.querySelector('.guestLoginButton')
+const wrongPassword = document.querySelector('.wrongPassword')
+
+loginButton.addEventListener('click', () => {
+    if (password.value == 'warneverchanges') {
+        indexTitle.classList.toggle('hidden');
+        menuSection.classList.toggle('hidden');
+        loginSection.classList.toggle('hidden');
+        password.value = ''
+    } if (password.value !== 'warneverchanges') {
+        password.value = ''
+        wrongPassword.classList.remove('hidden')
+    }
+});
+
+guestLoginButton.addEventListener('click', () => {
+    indexTitle.classList.toggle('hidden');
+    menuSection.classList.toggle('hidden');
+    loginSection.classList.toggle('hidden');
+});
