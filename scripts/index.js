@@ -60,6 +60,7 @@ loginButton.addEventListener('click', () => {
     } if (password.value !== 'warneverchanges') {
         password.value = ''
         wrongPassword.classList.remove('hidden')
+        guestLoginButton.classList.remove('hidden')
     }
 });
 
