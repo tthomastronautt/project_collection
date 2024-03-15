@@ -1,0 +1,117 @@
+/* share tech mono */
+
+/* regular 400 */ @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "share tech mono";
+    color: green;
+    background-color: black;
+}
+body{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+/* === header start === */
+.headerTitle{
+    text-align: center;
+}
+.line{
+    background-color: green;
+    height: 5px;
+}
+.indexLink{
+    text-decoration: none;
+    font-weight: bold;
+}
+.indexLink:hover, .categoryBtn:hover, .viewCartBtn:hover, .productPageBtn:hover, .addToCartBtn:hover, .removeFromCartBtn:hover, .productPageButtons:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+/* === header end === */
+
+/* === web shop index start === */
+.webShopIndex{
+    display: flex;
+}
+.category{
+    display: block;
+    width: 33.3%;
+}
+.categoryBtn, .categoryImg, .viewCartBtn{
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* === web shop index end === */
+
+/* === product card start === */
+.productCard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+}
+.productImg{
+    width: 100%;
+}
+.productPageBtn{
+    width: 50%;
+    text-decoration: none;
+}
+.addToCartBtn, .removeFromCartBtn{
+    width: 50%;
+    border: none;
+    text-align: start;
+    font-size: 1rem;
+}
+/* === product card end === */
+
+/* === product page start === */
+.webShopProduct{
+    width: 50%;
+}
+.productPageImg{
+    width: 100%;
+}
+.productPageButtons{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+/* === product page end === */
+
+@media screen and (max-width: 1366px) {
+    body{
+        width: 375px;
+    }
+    .headerTitle{
+        font-size: 100%;
+    }
+    .category{
+        width: 100%;
+    }
+    .productCard{
+        width: 100%;
+    }
+    .webShopProduct{
+        width: 100%;
+    }
+}
+
+.hidden{
+    display: none;
+}

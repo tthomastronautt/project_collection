@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "img": "./img/products/laser01.jpg",
+        "name": "AEP5",
+        "description": "The General Atomics AEP5 is a compact and reliable laser pistol designed for versatility and ease of use. Its lightweight construction and advanced energy cell technology make it a favored choice among urban security forces and discerning civilians alike. Perfect for close-quarters combat.",
+        "price": 299.99,
+        "energy_output": "5 megawatts",
+        "range": "Up to 100 meters",
+        "rate_of_fire": "300 rounds per minute",
+        "weight": "1.5 kg"
+    },
+    {
+        "id": 2,
+        "img": "./img/products/laser02.jpg",
+        "name": "AER5",
+        "description": "The General Atomics AER5 is a precision-engineered laser rifle built for long-range engagements. With its advanced targeting systems and high-powered optics, it delivers unparalleled accuracy and stopping power. Trusted by military units and sharpshooters worldwide.",
+        "price": 599.99,
+        "energy_output": "10 megawatts",
+        "range": "Up to 500 meters",
+        "rate_of_fire": "200 rounds per minute",
+        "weight": "3.2 kg"
+    },
+    {
+        "id": 3,
+        "img": "./img/products/laser03.jpg",
+        "name": "AEP12",
+        "description": "Compact yet powerful, the General Atomics AEP12 is a laser pistol designed for reliability and performance. Its sleek design and ergonomic grip ensure comfortable handling in any situation. Whether for self-defense or law enforcement, the AEP12 delivers unmatched firepower.",
+        "price": 349.99,
+        "energy_output": "6 megawatts",
+        "range": "Up to 80 meters",
+        "rate_of_fire": "350 rounds per minute",
+        "weight": "1.7 kg"
+    },
+    {
+        "id": 4,
+        "img": "./img/products/laser04.jpg",
+        "name": "AER10",
+        "description": "Engineered for precision and power, the General Atomics AER10 is a formidable laser rifle favored by marksmen and elite forces. Its modular design allows for easy customization, adapting to various combat scenarios with ease. Dominate the battlefield with the AER10.",
+        "price": 699.99,
+        "energy_output": "12 megawatts",
+        "range": "Up to 600 meters",
+        "rate_of_fire": "180 rounds per minute",
+        "weight": "3.5 kg"
+    },
+    {
+        "id": 5,
+        "img": "./img/products/laser05.jpg",
+        "name": "AER15",
+        "description": "The General Atomics AER15 sets the standard for laser rifles with its cutting-edge technology and superior performance. Equipped with advanced energy management systems, it offers extended operational endurance without compromising on firepower. Unleash the power of the AER15.",
+        "price": 899.99,
+        "energy_output": "14 megawatts",
+        "range": "Up to 700 meters",
+        "rate_of_fire": "160 rounds per minute",
+        "weight": "3.8 kg"
+    },
+    {
+        "id": 6,
+        "img": "./img/products/laser06.jpg",
+        "name": "AER20",
+        "description": "Designed for maximum impact, the General Atomics AER20 is a heavy-duty laser rifle built to handle the most demanding combat situations. Its robust construction and high-energy output make it a preferred choice for military units and security forces operating in hostile environments.",
+        "price": 1299.99,
+        "energy_output": "16 megawatts",
+        "range": "Up to 800 meters",
+        "rate_of_fire": "150 rounds per minute",
+        "weight": "4.1 kg"
+    },
+    {
+        "id": 7,
+        "img": "./img/products/laser07.jpg",
+        "name": "AER25",
+        "description": "The General Atomics AER25 is a versatile laser rifle renowned for its adaptability and reliability. Whether engaging targets at long range or clearing close-quarters threats, its advanced targeting systems and rapid-fire capabilities ensure dominance on the battlefield.",
+        "price": 1099.99,
+        "energy_output": "18 megawatts",
+        "range": "Up to 900 meters",
+        "rate_of_fire": "140 rounds per minute",
+        "weight": "4.3 kg"
+    },
+    {
+        "id": 8,
+        "img": "./img/products/laser08.jpg",
+        "name": "AER30",
+        "description": "Experience unmatched firepower with the General Atomics AER30 laser rifle. Engineered for sustained combat operations, its efficient energy management systems and rugged design make it a preferred choice for elite military units and special forces operatives.",
+        "price": 1599.99,
+        "energy_output": "20 megawatts",
+        "range": "Up to 1000 meters",
+        "rate_of_fire": "130 rounds per minute",
+        "weight": "4.6 kg"
+    },
+    {
+        "id": 9,
+        "img": "./img/products/laser09.jpg",
+        "name": "AER35",
+        "description": "The General Atomics AER35 is a high-performance laser rifle designed for elite operatives and combat specialists. Its advanced targeting systems and enhanced energy efficiency ensure precise and devastating firepower in any tactical scenario.",
+        "price": 1799.99,
+        "energy_output": "22 megawatts",
+        "range": "Up to 1100 meters",
+        "rate_of_fire": "120 rounds per minute",
+        "weight": "4.8 kg"
+    },
+    {
+        "id": 10,
+        "img": "./img/products/laser10.jpg",
+        "name": "AEP17",
+        "description": "Compact and reliable, the General Atomics AEP17 laser pistol is a trusted sidearm for law enforcement and civilian defense. Its lightweight construction and ergonomic design make it easy to carry and deploy, ensuring rapid response in critical situations.",
+        "price": 329.99,
+        "energy_output": "4.5 megawatts",
+        "range": "Up to 120 meters",
+        "rate_of_fire": "280 rounds per minute",
+        "weight": "1.4 kg"
+    },
+    {
+        "id": 11,
+        "img": "./img/products/laser11.jpg",
+        "name": "AER40",
+        "description": "The General Atomics AER40 is a pinnacle of laser rifle technology, combining unmatched precision with devastating firepower. Its advanced targeting systems and customizable configurations make it an indispensable tool for military operations and security missions.",
+        "price": 1999.99,
+        "energy_output": "24 megawatts",
+        "range": "Up to 1200 meters",
+        "rate_of_fire": "110 rounds per minute",
+        "weight": "5.1 kg"
+    },
+    {
+        "id": 12,
+        "img": "./img/products/laser12.jpg",
+        "name": "AER45",
+        "description": "Engineered for elite operatives, the General Atomics AER45 laser rifle delivers unparalleled performance and versatility on the battlefield. Its advanced energy management systems and modular design ensure adaptability to any mission profile, from reconnaissance to direct assault.",
+        "price": 2299.99,
+        "energy_output": "26 megawatts",
+        "range": "Up to 1300 meters",
+        "rate_of_fire": "100 rounds per minute",
+        "weight": "5.3 kg"
+    },
+    {
+        "id": 13,
+        "img": "./img/products/laser13.jpg",
+        "name": "AEP22",
+        "description": "The General Atomics AEP22 is a compact and reliable laser pistol, ideal for personal defense and close-quarters engagements. Its sleek design and rapid-fire capability make it a favored choice among security personnel and civilian operators.",
+        "price": 369.99,
+        "energy_output": "5.5 megawatts",
+        "range": "Up to 90 meters",
+        "rate_of_fire": "320 rounds per minute",
+        "weight": "1.6 kg"
+    },
+    {
+        "id": 14,
+        "img": "./img/products/laser14.jpg",
+        "name": "AER50",
+        "description": "Unleash the full potential of laser technology with the General Atomics AER50 laser rifle. Engineered for superior performance and durability, it stands as a testament to General Atomics' commitment to innovation and excellence in weaponry.",
+        "price": 2499.99,
+        "energy_output": "28 megawatts",
+        "range": "Up to 1400 meters",
+        "rate_of_fire": "90 rounds per minute",
+        "weight": "5.6 kg"
+    },
+    {
+        "id": 15,
+        "img": "./img/products/laser15.jpg",
+        "name": "AER55",
+        "description": "The General Atomics AER55 is a cutting-edge laser rifle designed for the modern battlefield. Its advanced features and ergonomic design ensure optimal performance in any combat environment, from urban warfare to long-range engagements.",
+        "price": 2799.99,
+        "energy_output": "30 megawatts",
+        "range": "Up to 1500 meters",
+        "rate_of_fire": "80 rounds per minute",
+        "weight": "5.8 kg"
+    },
+    {
+        "id": 16,
+        "img": "./img/products/laser16.jpg",
+        "name": "AER60",
+        "description": "Dominate the battlefield with the General Atomics AER60 laser rifle. Engineered for maximum firepower and precision, it offers unmatched lethality and reliability in the hands of skilled operators. Secure victory with the AER60.",
+        "price": 2999.99,
+        "energy_output": "32 megawatts",
+        "range": "Up to 1600 meters",
+        "rate_of_fire": "70 rounds per minute",
+        "weight": "6.1 kg"
+    },
+    {
+        "id": 17,
+        "img": "./img/products/laser17.jpg",
+        "name": "AER65",
+        "description": "The General Atomics AER65 sets the standard for laser rifles with its advanced technology and superior performance. Built for elite operatives and specialized units, it offers unmatched firepower and adaptability on the modern battlefield.",
+        "price": 3299.99,
+        "energy_output": "34 megawatts",
+        "range": "Up to 1700 meters",
+        "rate_of_fire": "60 rounds per minute",
+        "weight": "6.3 kg"
+    },
+    {
+        "id": 18,
+        "img": "./img/products/laser18.jpg",
+        "name": "AER70",
+        "description": "Experience the pinnacle of laser weapon technology with the General Atomics AER70. Designed for elite forces and special operations units, it delivers devastating firepower and precision targeting capabilities in the most challenging combat scenarios.",
+        "price": 3599.99,
+        "energy_output": "36 megawatts",
+        "range": "Up to 1800 meters",
+        "rate_of_fire": "50 rounds per minute",
+        "weight": "6.6 kg"
+    }
+]

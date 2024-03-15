@@ -7,7 +7,7 @@ const deleteItem = () => {
     const deleteBtn = document.querySelectorAll('.delete')
     
     deleteBtn.forEach((btn, index) => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', () => {
             toDoArray.splice(index, 1)
             renderList()
             checkedItem()
